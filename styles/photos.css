@@ -1,0 +1,25 @@
+.photos-container {
+  padding-top: 10%;
+}
+.main-photos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-inline: 15rem;
+}
+.photos-container img {
+  max-width: 45%;
+}
+.other-photos {
+  padding-top: 2em;
+  padding-left: 2em;
+}
+.other-photos img {
+  display: block;
+}
+.picture-4 {
+  margin-left: 50%;
+}
+.picture-5 {
+  max-width: 1000rem;
+}
