@@ -5,6 +5,8 @@
 }
 body {
   background-color: #eae9e5;
+  color: #222d44;
+  font-family: Pacifico;
 }
 li,
 a {
@@ -58,7 +60,6 @@ header {
 .home-container h1 {
   margin-top: 90%;
   margin-left: 3em;
-  color: #222d44;
   font-family: Pacifico;
   font-weight: 400;
   font-size: 4rem;
@@ -66,7 +67,6 @@ header {
 .home-container h2 {
   margin-top: 0;
   margin-left: 3.5em;
-  color: #222d44;
   font-family: Pacifico;
   font-weight: 400;
   font-size: 4rem;
@@ -77,11 +77,19 @@ header {
 }
 .about-us-img {
   max-width: 100%;
+  background-color: rgba 0 0 0 0.45;
 }
 .about-us-container {
   text-align: center;
   font-size: 5rem;
-  color: #222d44;
+}
+.about-us-container h1 {
+  text-align: center;
+  font-weight: 100;
+}
+.about-us-container h2 {
+  text-align: center;
+  font-weight: 200;
 }
 .paragraph-container {
   display: flex;
@@ -91,4 +99,29 @@ header {
 }
 .paragraph-container p {
   margin-inline: 8%;
+}
+.photos-container {
+  padding-top: 10%;
+}
+.main-photos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-inline: 15rem;
+}
+.photos-container img {
+  max-width: 45%;
+}
+.other-photos {
+  padding-top: 2em;
+  padding-left: 2em;
+}
+.other-photos img {
+  display: block;
+}
+.picture-4 {
+  margin-left: 50%;
+}
+.picture-5 {
+  max-width: 1000rem;
 }
