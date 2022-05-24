@@ -77,7 +77,7 @@ header {
 }
 .about-us-img {
   max-width: 100%;
-  background-color: rgba 0 0 0 0.45;
+  margin-top: -10%;
 }
 .about-us-container {
   text-align: center;
