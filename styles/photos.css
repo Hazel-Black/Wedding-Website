@@ -9,7 +9,6 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  margin-inline: 15rem;
 }
 .picture-1,
 .picture-2 {
@@ -35,5 +34,5 @@ body {
   margin-left: 10%;
 }
 .picture-5 {
-  max-width: 1000rem;
+  max-width: 100rem;
 }
