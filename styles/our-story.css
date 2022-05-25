@@ -36,3 +36,17 @@ body {
 .paragraph-container p {
   margin-inline: 8%;
 }
+@media (max-width: 1440px) {
+  .about-us-img {
+    margin-top: 5%;
+  }
+  .about-us-container {
+    font-size: 2rem;
+  }
+  .paragraph-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    text-align: left;
+  }
+}
