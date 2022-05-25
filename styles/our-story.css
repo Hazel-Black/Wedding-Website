@@ -1,10 +1,22 @@
+body {
+  background-image: url(/Images/Wave.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.image-container {
+  width: 100%;
+  background-color: #f4ddd5;
+}
+
 .about-us-img {
+  background-color: #f4ddd5;
   max-width: 100%;
   margin-top: -10%;
 }
 .about-us-container {
   text-align: center;
-  font-size: 5rem;
+  font-size: 3rem;
 }
 .about-us-container h1 {
   text-align: center;
@@ -13,11 +25,12 @@
 .about-us-container h2 {
   text-align: center;
   font-weight: 200;
+  margin-top: 50px;
 }
 .paragraph-container {
   display: flex;
   margin-top: 50px;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: left;
 }
 .paragraph-container p {

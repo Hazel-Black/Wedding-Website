@@ -1,3 +1,7 @@
+body {
+  background-color: #f4ddd5;
+}
+
 .photos-container {
   padding-top: 10%;
 }
@@ -7,18 +11,28 @@
   justify-content: space-between;
   margin-inline: 15rem;
 }
+.picture-1,
+.picture-2 {
+  border-radius: 200px;
+}
 .photos-container img {
   max-width: 45%;
 }
 .other-photos {
+  display: flex;
   padding-top: 2em;
   padding-left: 2em;
 }
 .other-photos img {
-  display: block;
+  display: inline-block;
+}
+.picture-3,
+.picture-4 {
+  border-radius: 20px;
+  padding-bottom: 50px;
 }
 .picture-4 {
-  margin-left: 50%;
+  margin-left: 10%;
 }
 .picture-5 {
   max-width: 1000rem;
