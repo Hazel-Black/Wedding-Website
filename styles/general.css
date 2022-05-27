@@ -54,7 +54,7 @@ header {
 .contact-container {
   margin-block-start: 20%;
   margin-inline-start: 10%;
-  font-size: 3rem;
+  font-size: 1rem;
   text-align: center;
 }
 @media (min-width: 1440px) {
