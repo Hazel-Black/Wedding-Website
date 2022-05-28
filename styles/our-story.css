@@ -34,6 +34,7 @@ body {
   text-align: left;
 }
 .paragraph-container p {
+  margin-top: 50px;
   margin-inline: 8%;
 }
 @media (max-width: 1440px) {
