@@ -51,9 +51,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    
-    
   }
   .other-photos {
     flex-direction: column;
@@ -63,19 +60,25 @@ body {
   }
   .picture-3 {
     margin-right: 0;
+    margin-left: 0;
   }
-   .picture-3, .picture-4, .picture-5{
+  .picture-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .picture-3,
+  .picture-4,
+  .picture-5 {
     width: 80%;
   }
-  .picture-1, .picture-2{
+  .picture-1,
+  .picture-2 {
     border-radius: 20px;
-    
   }
-  .picture-5{
+  .picture-5 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
   }
 }
