@@ -9,6 +9,8 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
+  max-width: 80em;
+  margin-left: 20%;
 }
 .picture-1,
 .picture-2 {
@@ -24,15 +26,56 @@ body {
 }
 .other-photos img {
   display: inline-block;
+  max-width: 500px;
 }
 .picture-3,
 .picture-4 {
   border-radius: 20px;
   padding-bottom: 50px;
 }
+.picture-3 {
+  margin-right: 20%;
+  margin-left: 10%;
+}
 .picture-4 {
   margin-left: 10%;
 }
 .picture-5 {
-  max-width: 100%;
+  margin-left: 18%;
+  max-width: 70%;
+  border-radius: 20px;
+}
+@media (max-width: 1716px) {
+  .main-photos {
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+  }
+  .other-photos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: ;
+  }
+  .picture-3 {
+    margin-right: 0;
+  }
+   .picture-3, .picture-4, .picture-5{
+    width: 80%;
+  }
+  .picture-1, .picture-2{
+    border-radius: 20px;
+    
+  }
+  .picture-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+  }
 }
